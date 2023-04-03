@@ -16,7 +16,7 @@ const { counter } = storeToRefs(counterStore);
       class="bg-red-300 w-fit rounded-md px-4 py-2 text-white"
       @click="counterStore.updateCounter(5)"
     >
-      Increment
+      add
     </button>
 
     {{ counter }}
